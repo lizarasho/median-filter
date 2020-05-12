@@ -157,5 +157,5 @@ uchar median_filter::safe_get(const std::vector<std::vector<uchar>> &a, const in
 
 bool median_filter::valid(const int ind, const size_t n)
 {
-    return ind >= 0 && ind < n;                     // 2 comparision operations
+    return ind >= 0 && ind < n;
 }
